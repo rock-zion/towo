@@ -1,0 +1,46 @@
+.top_nav,
+.top_nav div {
+  display: flex;
+  align-items: center;
+}
+
+.top_nav {
+  justify-content: space-between;
+  padding: 0 88px;
+  height: 85px;
+}
+
+.nav_logo {
+  margin-right: 61px;
+}
+
+.left_nav_wrapper a {
+  padding-right: 16px;
+}
+
+.right_nav_wrapper .links a {
+  margin-right: 32px;
+}
+
+.right_nav_wrapper .links a:last-child {
+  margin-right: 109px;
+}
+
+.bottom_nav {
+  background: var(--purple);
+  height: 61px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_sign_up {
+  background: var(--purple);
+  height: 40px;
+  width: 89px;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  margin-left: 15px;
+}

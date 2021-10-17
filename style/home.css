@@ -1,0 +1,180 @@
+.header_wrapper {
+  height: 615px;
+  position: relative;
+  padding: 140px 151px 0 151px;
+}
+
+.dark_bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: var(--dark-bg);
+  width: 300px;
+}
+
+.header_text {
+  font-size: 72px;
+  line-height: 64px;
+  margin-bottom: 23px;
+}
+
+.header_subtext {
+  font-size: 18px;
+}
+
+.header_scroll_wrapper {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.header_scroll_btn {
+  background: var(--blue);
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin-right: 24px;
+}
+
+.transaction_box {
+  width: 548px;
+  height: 675px;
+  border-radius: 8px;
+  position: absolute;
+  right: 152px;
+  top: 137px;
+  background: var(--white);
+  z-index: 3;
+  border: 1px solid #743ca7;
+  padding: 113px 67px;
+}
+
+.transaction_box_input_wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.transaction_box input {
+  height: 66px;
+  background: #ffffff;
+  border: 1px solid #743ca7;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.transaction_details {
+  width: 388px;
+  height: 249px;
+  left: 807px;
+  top: 532px;
+  background: rgba(232, 241, 255, 0.92);
+  border-radius: 7px;
+  margin-top: 56px;
+  color: rgba(89, 86, 233, 0.58);
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding: 44px 0;
+}
+
+.transaction_details > div {
+  border-left: 1px solid rgba(89, 86, 233, 0.64);
+  height: 100%;
+  padding-left: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.transaction_get_started {
+  width: 165px;
+  height: 59px;
+  background: #743ca7;
+  border-radius: 5px;
+  color: var(--white);
+  margin-top: 48px;
+}
+
+.market_highlights {
+  background: #dfe5eb;
+  padding: 41px 50px;
+}
+
+.market_highlights_title {
+  display: block;
+  font-size: 48px;
+  margin-bottom: 113px;
+}
+
+.currency_track_wrapper {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 42px;
+  margin-bottom: 106px;
+}
+
+.risers {
+  background: #eceff4;
+  margin: 0 -50px 63px -50px;
+  padding: 37px 50px;
+}
+
+.performance_title {
+  display: block;
+  margin-bottom: 35px;
+}
+
+.currency_track_card {
+  min-height: 220px;
+  background: var(--white);
+  border: 1px solid rgba(91, 60, 199, 0.25);
+  border-radius: 10px;
+  padding: 43px 57px;
+  transition: all 0.5;
+}
+
+.currency_track_card:hover {
+  background: #e8f1ff;
+}
+
+.currency_track_card span {
+  display: block;
+}
+
+.track_title {
+  font-size: 16px;
+  color: #393f48;
+  opacity: 0.55;
+  letter-spacing: -0.025em;
+  line-height: 24px;
+}
+
+.track_price {
+  height: 24px;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.track_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.track_percentage {
+  font-size: 18px;
+}
+
+.track_btn {
+  color: var(--white);
+  background: var(--purple);
+  height: 34px;
+  width: 95px;
+  border-radius: 50px;
+}
