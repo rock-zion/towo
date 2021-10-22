@@ -44,3 +44,12 @@
   color: var(--white);
   margin-left: 15px;
 }
+
+.left_nav_wrapper .navlinks {
+  border-right: 2px solid black;
+  margin-right: 16px;
+}
+
+.navlinks {
+  color: black;
+}
